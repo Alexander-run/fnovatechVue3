@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style scoped>
   .main-container {
     width: 100%;
     display: flex;

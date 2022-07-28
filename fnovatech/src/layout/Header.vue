@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <div>Fnovatech</div>
+    <h1 class="logo">Fnovatech</h1>
     <el-menu
       class="header-menu"
       default-active="/"
@@ -23,13 +23,20 @@
 import { MENU_CONFIG } from '../lib/configs'
 </script>
 
-<style lang="less" scoped>
+<style scoped>
+.logo {
+  color: var(--el-color-primary);
+}
 .header-container {
   width: 100%;
-  .header-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.el-menu-item {
+  font-size: 20px;
+  font-weight: 700;
 }
 </style>
