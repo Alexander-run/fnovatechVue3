@@ -3,9 +3,9 @@
     <h1 class="logo">Fnovatech</h1>
     <el-menu
       class="header-menu"
-      :default-active="activePath"
+      :default-active="route.path"
       mode="horizontal"
-      :router="true"
+      router
     >
       <el-menu-item 
         class="header-menu-item"
@@ -21,9 +21,9 @@
 
 <script lang="ts" setup>
 import { MENU_CONFIG } from '../lib/configs'
-import { ref } from 'vue';
+import { useRoute } from 'vue-router'
 
-const activePath = ref(window.location.pathname)
+const route = useRoute()
 
 </script>
 
