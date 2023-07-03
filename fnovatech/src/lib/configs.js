@@ -4,9 +4,9 @@ export const MENU_CONFIG = [
     label: 'Home',
     path: '/',
   },{
-    label: 'Contact Us',
-    path: '/contact',
-  },{
+  //   label: 'Contact Us',
+  //   path: '/contact',
+  // },{
     label: 'Residential',
     path: '/residential',
   },{

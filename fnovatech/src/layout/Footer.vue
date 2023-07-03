@@ -1,7 +1,7 @@
 <template>
   <div>
     <hr/>
-    Copyright © 2022 Fnovatech - All Rights Reserved.
+    Copyright © 2023 Fnovatech - All Rights Reserved.
   </div>
 </template>
 
