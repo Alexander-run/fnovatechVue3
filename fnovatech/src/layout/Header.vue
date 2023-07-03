@@ -33,6 +33,7 @@ const activePath = ref(window.location.pathname)
 }
 .header-container {
   width: 100%;
+  margin-bottom: 12px;
 }
 .header-menu {
   display: flex;

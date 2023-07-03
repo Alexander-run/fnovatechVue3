@@ -1,5 +1,5 @@
 <template>
-  <el-main class="home-container">
+  <div class="home-container">
     <div class="welcome-page">
       <h2>Find your future energy</h2>
       <el-button 
@@ -100,47 +100,47 @@
           <el-popover trigger="hover">
             <template #reference><img alt="" :src="Fronius" /></template>
             <div>
-              <a target="_blank" href="/static/"><p></p></a>
+              <a target="_blank" href="/static/Inverter/Fronius/SE_DS_Fronius_Primo_UL_EN_CA.pdf"><p>Fronius Primo</p></a>
             </div>
           </el-popover>
           <el-popover trigger="hover">
             <template #reference><img alt="" :src="Growatt" /></template>
             <div>
-              <a target="_blank" href="/static/"><p></p></a>
-              <a target="_blank" href="/static/"><p></p></a>
+              <a target="_blank" href="/static/Inverter/Growatt/growatt-2.5-6kw-TL-X.pdf"><p>2500~6000TL-X</p></a>
+              <a target="_blank" href="/static/Inverter/Growatt/growatt-3p-10kw.pdf"><p>10000~15000TL3-S</p></a>
             </div>
           </el-popover>
           <el-popover trigger="hover">
             <template #reference><img alt="" :src="SMA" /></template>
             <div>
-              <a target="_blank" href="/static/"><p></p></a>
-              <a target="_blank" href="/static/"><p></p></a>
+              <a target="_blank" href="/static/Inverter/SMA/SB30-50-DEN1708-V22web.pdf"><p>Sunny Boy</p></a>
+              <a target="_blank" href="/static/Inverter/SMA/Sunny_Tripower_8000-17000TL_Datasheet.pdf"><p>Sunny Tripower</p></a>
             </div>
           </el-popover>
           <el-popover trigger="hover">
             <template #reference><img alt="" :src="Solax" /></template>
             <div>
-              <a target="_blank" href="/static/"><p></p></a>
+              <a target="_blank" href="/static/Inverter/Solax/X1-Smart-Technical-Datasheet solax.pdf"><p>X1-Smart</p></a>
             </div>
           </el-popover>
           <el-popover trigger="hover">
             <template #reference><img alt="" :src="Solis" /></template>
             <div>
-              <a target="_blank" href="/static/"><p></p></a>
-              <a target="_blank" href="/static/"><p></p></a>
+              <a target="_blank" href="/static/Inverter/Solis/solis.pdf"><p>3P-4G (new)</p></a>
+              <a target="_blank" href="/static/Inverter/Solis/Solis_datasheet_3P5-20kW_4G_AUS-compressed071019.pdf"><p>3P-4G</p></a>
             </div>
           </el-popover>
           <el-popover trigger="hover">
             <template #reference><img alt="" :src="Sungrow" /></template>
             <div>
-              <a target="_blank" href="/static/"><p></p></a>
-              <a target="_blank" href="/static/"><p></p></a>
+              <a target="_blank" href="/static/Inverter/Sungrow/SG10KTL-MT_datasheet.pdf"><p>SG10KTL-MT</p></a>
+              <a target="_blank" href="/static/Inverter/Sungrow/Sungrow-SG5KTL-MT-Three-Phase-Gen-2-Inverter.pdf"><p>SG RT series</p></a>
             </div>
           </el-popover>
         </div>
       </el-row>
     </div>
-  </el-main>
+  </div>
 </template>
 
 <script setup>
@@ -206,6 +206,7 @@ const handleRoute = (path) => {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 0;
 }
 .choice-block-item {
   
