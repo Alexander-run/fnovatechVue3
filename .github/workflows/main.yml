@@ -7,11 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v2
+      - name: checkout
+        uses: actions/checkout@v2
       
       - name: build fnovatech
-        run: npm install
-      - name: build fnovatech
-        run: npm run build
+        run: |
+          npm install
+          npm run build
         
       - name: upload dist source to tencent cloud
