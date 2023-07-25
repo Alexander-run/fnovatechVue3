@@ -1,7 +1,7 @@
 <template>
   <div>
     <hr/>
-    Copyright © 2023 Fnovatech - All Rights Reserved. <a href="https://beian.miit.gov.cn">京ICP备2023017942号-1</a>
+    Copyright © 2023 Fnovatech - All Rights Reserved. <a href="https://beian.miit.gov.cn">京ICP备2023017942号</a>
   </div>
 </template>
 
