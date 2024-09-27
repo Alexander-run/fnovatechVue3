@@ -1,6 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 
 export default {
+  base: '/beta',
   plugins: [vue()],
   server: {
     host: '0.0.0.0',
